@@ -48,7 +48,7 @@ export default Ember.Component.extend({
   didDestroyElement() {
     const scrubber = this.$();
 
-    scrubber.off('mousemove', scrubberAction);
-    scrubber.off('mouseleave', scrubberAction);
+    scrubber.off('mousemove');
+    scrubber.off('mouseleave');
   }
 });
