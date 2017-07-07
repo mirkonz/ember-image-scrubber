@@ -1,6 +1,6 @@
 {
   "name": "ember-image-scrubber",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "iPhoto-like Thumbnail Scrubber",
   "keywords": [
     "ember-addon",
