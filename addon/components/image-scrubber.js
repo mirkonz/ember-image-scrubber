@@ -38,19 +38,17 @@ export default Ember.Component.extend({
 
   didRender() {
     const scrubber = this.$();
-    const elementID = scrubber.attr('id');
 
-    scrubber.on('mousemove.' + elementID, scrubberAction);
-    scrubber.on('mouseleave.' + elementID, scrubberAction);
+    scrubber.on('mousemove', scrubberAction);
+    scrubber.on('mouseleave', scrubberAction);
 
     $('.image-scrubber-inner', scrubber).children().first().addClass('image-slide-current');
   },
 
   didDestroyElement() {
     const scrubber = this.$();
-    const elementID = scrubber.attr('id');
 
-    scrubber.off('mousemove.' + elementID, scrubberAction);
-    scrubber.off('mouseleave.' + elementID, scrubberAction);
+    scrubber.off('mousemove', scrubberAction);
+    scrubber.off('mouseleave', scrubberAction);
   }
 });
