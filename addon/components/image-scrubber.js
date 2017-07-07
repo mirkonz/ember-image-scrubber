@@ -45,7 +45,7 @@ export default Ember.Component.extend({
     $('.image-scrubber-inner', scrubber).children().first().addClass('image-slide-current');
   },
 
-  didDestroyElement() {
+  willDestroyElement() {
     const scrubber = this.$();
 
     scrubber.off('mousemove');
