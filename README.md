@@ -18,7 +18,7 @@ Coming soon
   <img src="http://lorempixel.com/200/200/people/1" />
   <img src="http://lorempixel.com/200/200/people/2" />
   <img src="http://lorempixel.com/200/200/people/3" />
-{{/image-scrubber}}]
+{{/image-scrubber}}
 ```
 
 ##### Credit to Sage Arslan
