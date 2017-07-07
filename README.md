@@ -21,7 +21,7 @@ Coming soon
 {{/image-scrubber}}]
 ```
 
-### Credit to Sage Arslan
+##### Credit to Sage Arslan
 ---
 
 ## Want to help to improve this addon?
