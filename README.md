@@ -1,5 +1,7 @@
 # Ember-Image-Scrubber
 
+[![Ember Version](https://embadge.io/v1/badge.svg?start=2.13)](https://embadge.io/v1/badge.svg?start=2.13)
+
 iPhoto-like Thumbnail Scrubber
 
 ## Demo
