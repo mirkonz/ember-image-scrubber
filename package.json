@@ -10,13 +10,14 @@
     "thumbnail"
   ],
   "license": "MIT",
-  "author": "Mirko May",
+  "author": "Mirko May <mail@mirkomay.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
   "repository": "",
   "scripts": {
+    "postinstall": "npm rebuild node-sass",
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
