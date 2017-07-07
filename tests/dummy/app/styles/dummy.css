@@ -1,0 +1,10 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.row .image-scrubber {
+  float: left;
+  width: 46%;
+  margin: 2%;
+}
