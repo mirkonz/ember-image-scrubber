@@ -1,5 +1,7 @@
 # Ember-Image-Scrubber
 
+[![Ember Version](https://embadge.io/v1/badge.svg?start=2.13.0)](https://embadge.io/v1/badge.svg?start=2.13.0)
+
 iPhoto-like Thumbnail Scrubber
 
 ## Demo
@@ -16,8 +18,10 @@ Coming soon
   <img src="http://lorempixel.com/200/200/people/1" />
   <img src="http://lorempixel.com/200/200/people/2" />
   <img src="http://lorempixel.com/200/200/people/3" />
-{{/image-scrubber}}]
+{{/image-scrubber}}
 ```
+
+##### Credit to Sage Arslan
 ---
 
 ## Want to help to improve this addon?
