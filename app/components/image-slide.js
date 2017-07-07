@@ -1,0 +1,1 @@
+export { default } from 'ember-image-scrubber/components/image-slide';

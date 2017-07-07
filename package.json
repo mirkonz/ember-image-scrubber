@@ -1,12 +1,16 @@
 {
   "name": "ember-image-scrubber",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "iPhoto-like Thumbnail Scrubber",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "image-scrubber",
+    "images",
+    "gallery",
+    "thumbnail"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Mirko May",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -18,7 +22,8 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.3.0"
+    "ember-cli-babel": "^6.3.0",
+    "ember-cli-htmlbars": "^2.0.2"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -30,6 +35,7 @@
     "ember-cli-htmlbars-inline-precompile": "^0.4.0",
     "ember-cli-inject-live-reload": "^1.4.1",
     "ember-cli-qunit": "^4.0.0",
+    "ember-cli-sass": "^7.0.0",
     "ember-cli-shims": "^1.1.0",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^1.2.0",
