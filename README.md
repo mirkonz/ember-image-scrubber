@@ -20,6 +20,8 @@ Coming soon
   <img src="http://lorempixel.com/200/200/people/3" />
 {{/image-scrubber}}]
 ```
+
+### Credit to Sage Arslan
 ---
 
 ## Want to help to improve this addon?
