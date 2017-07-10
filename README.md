@@ -27,6 +27,7 @@ Coming soon
 ```
 
 **Credit to Sage Arslan**
+
 ---
 
 ## Want to help to improve this addon?
