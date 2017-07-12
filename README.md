@@ -1,10 +1,10 @@
 # Ember-Image-Scrubber
 
-[![Ember Version](https://embadge.io/v1/badge.svg?start=2.13.0)](https://embadge.io/v1/badge.svg?start=2.13.0)
 [![npm version](https://badge.fury.io/js/ember-image-scrubber.svg)](http://badge.fury.io/js/ember-image-scrubber)
 [![npm](https://img.shields.io/npm/dm/ember-image-scrubber.svg)]()
 [![Ember Observer Score](https://emberobserver.com/badges/ember-image-scrubber.svg)](https://emberobserver.com/addons/ember-image-scrubber)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Ember Version](https://embadge.io/v1/badge.svg?start=2.13.0)](https://embadge.io/v1/badge.svg?start=2.13.0)
 
 
 iPhoto-like Thumbnail Scrubber
