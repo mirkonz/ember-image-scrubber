@@ -30,28 +30,13 @@ Coming soon
 
 ---
 
-## Want to help to improve this addon?
+## Contributing
 
-* `git clone <repository-url>` this repository
-* `cd ember-image-scrubber`
-* `npm install`
-
-#### Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-#### Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-#### Building
-
-* `ember build`
-
-#### Create a pull request
+* Fork it
+* Create your feature branch (git checkout -b my-new-feature)
+* Commit your changes (git commit -am 'Add some feature')
+* Push to the branch (git push origin my-new-feature)
+* Create new Pull Request
 
 ---
 
