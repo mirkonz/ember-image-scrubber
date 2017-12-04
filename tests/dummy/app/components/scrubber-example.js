@@ -22,7 +22,7 @@ function shuffle(array) {
 
 function createImages() {
   const images = shuffle([1,2,3,4,5,6,7,8,9,10]);
-  const url = 'https://lorempixel.com/200/200/people/';
+  const url = 'https://placeimg.com/200/200/people/';
   let urls = [];
   images.forEach(image => {
     urls.push(url + image);
