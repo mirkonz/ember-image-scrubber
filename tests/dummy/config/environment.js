@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'dummy',
     environment: environment,
-    rootURL: '/ember-more-menu',
+    rootURL: '/ember-image-scrubber',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
