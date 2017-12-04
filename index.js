@@ -2,9 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-image-scrubber',
-
-  included: function(app) {
-    this._super.included(app);
-  }
+  name: 'ember-image-scrubber'
 };

@@ -1,0 +1,11 @@
+<div class="grid">
+
+  {{#each scrubbers as |scrubber|}}
+    {{#image-scrubber}}
+      {{#each scrubber.images as |image|}}
+        <img src="{{image}}" />
+      {{/each}}
+    {{/image-scrubber}}
+  {{/each}}
+
+</div>
