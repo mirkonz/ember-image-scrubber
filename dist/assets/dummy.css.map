@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "dummy.css",
+	"sourceRoot": "/Users/mirko/CloudStation/work/_git/github/ember-image-scrubber/app/styles",
+	"sources": [
+		"../../sass_compiler-input_base_path-O0bBo7A1.tmp/app/styles/app.scss"
+	],
+	"sourcesContent": [
+		".grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr 1fr 1fr;\n  grid-gap: 10px;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,eAAe;EACtC,QAAQ,EAAE,IAAI,GACf"
+}

@@ -1,0 +1,32 @@
+.image-scrubber {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-top: 100%; }
+  .image-scrubber .image-scrubber-inner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    z-index: 1;
+    display: inline-block; }
+    .image-scrubber .image-scrubber-inner > * {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      opacity: 0;
+      transition: all .2s ease; }
+    .image-scrubber .image-scrubber-inner .image-slide-current {
+      opacity: 1; }
+    .image-scrubber .image-scrubber-inner img {
+      width: 100%;
+      display: block;
+      object-fit: cover; }
+
+/*# sourceMappingURL=ember-image-scrubber.css.map */
