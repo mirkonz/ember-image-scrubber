@@ -3,7 +3,7 @@
   {{#each scrubbers as |scrubber|}}
     {{#image-scrubber}}
       {{#each scrubber.images as |image|}}
-        <img src="{{image}}" />
+        <img src={{image}} alt="">
       {{/each}}
     {{/image-scrubber}}
   {{/each}}
