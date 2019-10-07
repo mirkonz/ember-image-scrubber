@@ -1,7 +1,7 @@
 import Ember from 'ember';
+import $ from 'jquery';
 import layout from '../templates/components/image-scrubber';
 
-const { $ } = Ember;
 let currentSlide;
 let previousSlide;
 
@@ -42,7 +42,10 @@ export default Ember.Component.extend({
     scrubber.on('mousemove', scrubberAction);
     scrubber.on('mouseleave', scrubberAction);
 
-    $('.image-scrubber-inner', scrubber).children().first().addClass('image-slide-current');
+    $('.image-scrubber-inner', scrubber)
+      .children()
+      .first()
+      .addClass('image-slide-current');
   },
 
   willDestroyElement() {
