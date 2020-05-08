@@ -25,18 +25,21 @@
     "lint:js": "eslint .",
     "start": "ember serve",
     "test": "ember test",
-    "test:all": "ember try:each"
+    "test:all": "ember try:each",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "ember-cli-babel": "^7.12.0",
     "ember-cli-htmlbars": "^4.0.5",
-    "ember-cli-sass": "^10.0.1"
+    "ember-cli-sass": "^10.0.1",
+    "snyk": "^1.319.2"
   },
   "devDependencies": {
     "@ember/optional-features": "^1.0.0",
     "babel-eslint": "^10.0.3",
     "broccoli-asset-rev": "^3.0.0",
-    "ember-cli": "3.13.1",
+    "ember-cli": "3.13.2",
     "ember-cli-dependency-checker": "^3.2.0",
     "ember-cli-deploy": "^1.0.2",
     "ember-cli-deploy-build": "^2.0.0",
@@ -53,12 +56,12 @@
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^2.1.0",
     "ember-resolver": "^5.3.0",
-    "ember-source": "~3.14.0",
+    "ember-source": "~3.15.0",
     "ember-source-channel-url": "^2.0.1",
     "ember-template-lint": "^2.0.0",
     "ember-try": "^1.2.1",
     "eslint-plugin-ember": "^7.1.0",
-    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-node": "^11.0.0",
     "loader.js": "^4.7.0",
     "sass": "^1.23.0"
   },
@@ -72,5 +75,6 @@
   "bugs": {
     "url": "https://github.com/mayko780/ember-image-scrubber/issues"
   },
-  "homepage": "http://mirkomay.com/"
+  "homepage": "http://mirkomay.com/",
+  "snyk": true
 }
