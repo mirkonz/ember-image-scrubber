@@ -1,4 +1,6 @@
-# Ember-Image-Scrubber
+# Ember-Image-Scrubber (Archived)
+
+⚠️ This repository is no longer actively maintained. Feel free to fork or adopt it if you find it useful.
 
 
 [![npm version](https://badge.fury.io/js/ember-image-scrubber.svg)](http://badge.fury.io/js/ember-image-scrubber)
